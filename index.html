@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>¿Cuánto tiempo realmente pasó?</h2>
+    <h3>
+      Aplicación especialmente desarrollada para personas como yo que dicen "el
+      otro día"... y pasaron 7 años realmente.
+    </h3>
+
+    <form action="">
+      <label for="date-picker"
+        >Seleccioná la fecha aproximada del "otro día":</label
+      >
+      <input type="date" name="" id="date-picker" />
+      <button type="button" id="calcular">Calcular</button>
+    </form>
+
+    <span id="resultado"></span>
+    <script type="module" src="js/main.js"></script>
+  </body>
+
+  <style>
+    form {
+      width: 200px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 100px;
+    }
+    h3 {
+      text-align: center;
+    }
+    label,
+    span {
+      display: block;
+      margin: auto;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .contenedor__comentarios {
+      padding: 30px;
+      margin: 30px;
+      border: 1px solid black;
+    }
+
+    .comentario {
+      border: 1px solid black;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+  </style>
+</html>

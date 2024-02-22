@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "main": "js/main.js",
+  "dependencies": {
+    "@formkit/tempo": "^0.0.10"
+  }
+}
